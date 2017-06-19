@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Titillium+Web:300');
+html, body{
+	margin: 0px;
+}
+button{
+	height: 60px;
+	min-width: 60px;
+	border: 1px solid white;
+	border-radius: 30px;
+	color: white;
+	font-size: 40px;
+	padding: 10px 25px;
+	line-height: 10px;
+	letter-spacing: 1px;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+
+button:hover{
+	border: 1px solid #F59818;
+	color : #F59818;
+	cursor: pointer;
+	transition: 350ms;
+}
+/*----- NAVIGATION -----*/
+nav{
+	width: 100%;
+	height: 75px;
+	background-color: #093C5C;
+	line-height: 75px;
+	text-align: center;
+	color: white;
+}
+
+h1{
+	text-transform: uppercase;
+	float: left;
+	margin: 0 50px;
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 75px;
+	letter-spacing: 2px
+}
+
+nav ul{
+	height: 100%;
+	margin: 0 50px;
+	float: right;
+	list-style: none;
+}
+
+nav ul li{
+	padding: 0 10px;
+	display: inline-flex;	
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+
+nav ul li:hover{
+	background-color: #F59818;
+	cursor: pointer;
+	transition: 350ms;
+}
+
+.active{
+	background-color: #242B4B;
+}
+
+/*----- HEADER -----*/
+
+.banner{
+	width: 100%;
+	height: calc(100vh - 75px);
+	overflow: hidden;
+	background-color: #00233B;
+}
+
+.banner img{
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+	position: relative;
+}
+.sub{
+	position: absolute;
+	top: 75px;
+	width: 100%;
+	height: 50vw;
+	line-height: 35vh;
+	text-align: center;
+}
+h2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+}
+
+/*----- REALISATIONS -----*/
+section{
+	width: 900px;
+	height: 100vh;
+	margin: 50px auto;
+}
+article{
+	width: 300px;
+	text-align: center;
+	display: inline-block;
+}
+
+article img{
+	max-width: 100px;
+	margin: 0 auto;	
+	margin-bottom: 25px;
+	height: auto;
+}	
+
+article p{
+	margin: 0 25px;
+	text-align: justify;
+}
