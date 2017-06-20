@@ -22,6 +22,16 @@ button:hover{
 	cursor: pointer;
 	transition: 350ms;
 }
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+p{
+	margin: 0;
+}
+
 /*----- NAVIGATION -----*/
 nav{
 	width: 100%;
@@ -78,6 +88,7 @@ nav ul li:hover{
 
 .banner img{
 	width: 100%;
+	top: -10%;
 	height: auto;
 	opacity: 0.5;
 	position: relative;
@@ -96,14 +107,20 @@ h2{
 	letter-spacing: 2px;
 }
 
-/*----- REALISATIONS -----*/
+/*----- SECTION -----*/
 section{
 	width: 900px;
 	height: 100vh;
-	margin: 50px auto;
+	margin: 0 auto;
 }
+
+.head{
+	height: calc(100vh - 75px);	
+}
+
 article{
-	width: 300px;
+	width: 40%;
+	margin: 5% 5%;
 	text-align: center;
 	display: inline-block;
 }
@@ -118,4 +135,59 @@ article img{
 article p{
 	margin: 0 25px;
 	text-align: justify;
+}
+
+/*----- MAP & HORAIRES -----*/
+
+.map-responsive{
+	overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height: 0;
+    width: 40%;
+    margin: 5vh 0;
+    display: inline-block;
+	
+}
+
+.map-responsive iframe{
+	left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.hor{
+	top: 0px;
+	width: 40%;
+	margin: 5%;
+	display: inline-block;
+}
+
+.hor p{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+.hor ul{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	list-style: none;
+}
+
+/*----- FOOTER -----*/
+footer{
+	height: 200px;
+	width: 100%;
+	background-color: #093C5C;
+	font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 200px;
+	color: white;
+	text-align: center;
+}
+
+footer p{
+	margin-top: 
 }
